@@ -23,8 +23,8 @@ jobs:
         include:
           - build_variant: "mt7621"
             targets: "K2P_nano"
-          - build_variant: "mt7621-usb-1"
-            targets: "NEWIFI"
+#          - build_variant: "mt7621-usb-1"
+#            targets: "NEWIFI"
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
